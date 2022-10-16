@@ -69,4 +69,3 @@ def test_status_competence():
     #  e. empty – Boolean
     assert type(response.json()['pageable']['sort']['empty']) is bool
 
-#не понял, как выяснить отдельно, есть ли конкретный объект в JSON
